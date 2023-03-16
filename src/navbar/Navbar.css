@@ -1,0 +1,15 @@
+.logo1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 53px;
+  height: 49px; 
+  margin-right: 30px;
+  margin-top: 7px;
+  margin-left: 20px;
+ }
+ @media screen and (max-width: 1511px) {
+.p1{
+  position: fixed;
+  background-color: red;
+}
+}

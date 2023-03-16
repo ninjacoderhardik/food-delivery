@@ -1,0 +1,30 @@
+.food {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.448), rgba(0, 0, 0, 0.243)),
+    url("../assets/food.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  position: relative;
+}
+.content {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  color: white !important;
+  right: 12%;
+}
+.font {
+  font-family: "Roboto", sans-serif;
+  z-index: 5;
+}
+.fonts {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+@media only screen and (max-width: 1028px) {
+  .content {
+  top:20%;
+  }
+}
